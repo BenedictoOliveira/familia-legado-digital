@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -139,7 +138,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-legal-gold font-medium mb-1">E-mail</p>
-                  <p className="text-white">contato@familialegal.com.br</p>
+                  <p className="text-white">contato@capisite.com.br</p>
                 </div>
               </div>
               

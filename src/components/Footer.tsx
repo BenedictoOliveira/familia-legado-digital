@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-2xl font-serif font-bold mb-6">
-              <span className="text-gradient-gold">Familia</span>Legal
+              <span className="text-gradient-gold">Capi</span>site
             </h3>
             <p className="text-white/70 mb-6">
               Especialistas em direito empresarial e estruturação de holdings familiares para proteção patrimonial e planejamento sucessório.
@@ -46,7 +45,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-legal-gold" />
-                <span className="text-white/70">contato@familialegal.com.br</span>
+                <span className="text-white/70">contato@capisite.com.br</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-legal-gold mt-1" />
@@ -58,7 +57,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/50 text-sm mb-4 md:mb-0">
-            © {currentYear} FamiliaLegal. Todos os direitos reservados.
+            © {currentYear} Capisite. Todos os direitos reservados.
           </p>
           
           <div className="flex space-x-6">

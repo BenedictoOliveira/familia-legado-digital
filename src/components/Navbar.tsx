@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -27,7 +26,7 @@ const Navbar = () => {
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center">
           <h1 className="text-2xl font-serif font-bold text-legal-navy">
-            <span className="text-gradient-gold">Familia</span>Legal
+            <span className="text-gradient-gold">Capi</span>site
           </h1>
         </div>
         
