@@ -1,11 +1,11 @@
 
-import { Family, Scale, Landmark, Gavel } from "lucide-react";
+import { Users, Scale, Landmark, Gavel } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: <Family className="h-12 w-12 text-legal-gold" />,
+      icon: <Users className="h-12 w-12 text-legal-gold" />,
       title: "Holding Familiar",
       description: "Estruturação jurídica ideal para proteger e administrar o patrimônio familiar, garantindo segurança e planejamento sucessório."
     },
