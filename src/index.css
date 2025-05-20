@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,26 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+  
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-legal-gold to-legal-lightgold bg-clip-text text-transparent;
+  }
+
+  .cta-button {
+    @apply bg-legal-gold hover:bg-legal-lightgold text-legal-navy font-semibold px-6 py-3 rounded-md transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 md:px-8;
   }
 }
